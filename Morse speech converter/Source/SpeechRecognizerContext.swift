@@ -67,7 +67,7 @@ class SpeechRecognizerContext: NSObject {
             guard let inputNode = self.audioEngine.inputNode else {
                 let error = NSError(domain:"Audio engine has no input node", code: 2, userInfo: nil)
                 observer.onError(error)
-                exit(0)
+                return Disposables.create()
             }
             
             let request = SFSpeechAudioBufferRecognitionRequest()
