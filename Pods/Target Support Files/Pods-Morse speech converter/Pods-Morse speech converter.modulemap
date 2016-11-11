@@ -1,0 +1,6 @@
+framework module Pods_Morse_speech_converter {
+  umbrella header "Pods-Morse speech converter-umbrella.h"
+
+  export *
+  module * { export * }
+}

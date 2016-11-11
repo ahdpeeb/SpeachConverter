@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934344121DD5CFEB0063CC22 /* CircleMicrophoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344111DD5CFEB0063CC22 /* CircleMicrophoneButton.swift */; };
+		934344141DD5EE760063CC22 /* SpeechRecognizerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344131DD5EE760063CC22 /* SpeechRecognizerContext.swift */; };
+		936F86F71DD3782F0096FEC3 /* SpeachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F86F61DD3782F0096FEC3 /* SpeachController.swift */; };
+		936F870D1DD378CB0096FEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F87071DD378CB0096FEC3 /* AppDelegate.swift */; };
+		936F870E1DD378CB0096FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936F87081DD378CB0096FEC3 /* Assets.xcassets */; };
+		936F870F1DD378CB0096FEC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936F87091DD378CB0096FEC3 /* LaunchScreen.storyboard */; };
+		93B7FFE51DD379910079DD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B7FFE41DD379910079DD37 /* Main.storyboard */; };
+		B28269ED75BD3F568E18F2E5 /* Pods_Morse_speech_converter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E583D58FA7F0D4D2104124 /* Pods_Morse_speech_converter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1154716322E9B43D04519318 /* Pods-Morse speech converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morse speech converter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Morse speech converter/Pods-Morse speech converter.debug.xcconfig"; sourceTree = "<group>"; };
+		1F9D13DD8E0FE8255A7E6693 /* Pods-Morse speech converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morse speech converter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Morse speech converter/Pods-Morse speech converter.release.xcconfig"; sourceTree = "<group>"; };
+		934344111DD5CFEB0063CC22 /* CircleMicrophoneButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMicrophoneButton.swift; sourceTree = "<group>"; };
+		934344131DD5EE760063CC22 /* SpeechRecognizerContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerContext.swift; sourceTree = "<group>"; };
+		936F86F11DD3782F0096FEC3 /* Morse speech converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Morse speech converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		936F86F61DD3782F0096FEC3 /* SpeachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeachController.swift; path = ../SpeachController.swift; sourceTree = "<group>"; };
+		936F87001DD3782F0096FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936F87071DD378CB0096FEC3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		936F87081DD378CB0096FEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		936F870A1DD378CB0096FEC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93B7FFE41DD379910079DD37 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		A3E583D58FA7F0D4D2104124 /* Pods_Morse_speech_converter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Morse_speech_converter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		936F86EE1DD3782F0096FEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28269ED75BD3F568E18F2E5 /* Pods_Morse_speech_converter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0305495E0738AB69D5F4F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1154716322E9B43D04519318 /* Pods-Morse speech converter.debug.xcconfig */,
+				1F9D13DD8E0FE8255A7E6693 /* Pods-Morse speech converter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F60EFA99FA880020BD83B3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E583D58FA7F0D4D2104124 /* Pods_Morse_speech_converter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		936F86E81DD3782E0096FEC3 = {
+			isa = PBXGroup;
+			children = (
+				936F86F31DD3782F0096FEC3 /* Morse speech converter */,
+				936F86F21DD3782F0096FEC3 /* Products */,
+				5D0305495E0738AB69D5F4F1 /* Pods */,
+				6F60EFA99FA880020BD83B3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		936F86F21DD3782F0096FEC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936F86F11DD3782F0096FEC3 /* Morse speech converter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		936F86F31DD3782F0096FEC3 /* Morse speech converter */ = {
+			isa = PBXGroup;
+			children = (
+				936F87111DD378E70096FEC3 /* Source */,
+				936F87061DD378CB0096FEC3 /* Resources */,
+				936F87001DD3782F0096FEC3 /* Info.plist */,
+			);
+			path = "Morse speech converter";
+			sourceTree = "<group>";
+		};
+		936F87061DD378CB0096FEC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				936F87071DD378CB0096FEC3 /* AppDelegate.swift */,
+				936F87081DD378CB0096FEC3 /* Assets.xcassets */,
+				936F87091DD378CB0096FEC3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		936F87111DD378E70096FEC3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				936F86F61DD3782F0096FEC3 /* SpeachController.swift */,
+				934344131DD5EE760063CC22 /* SpeechRecognizerContext.swift */,
+				93B7FFE41DD379910079DD37 /* Main.storyboard */,
+				934344111DD5CFEB0063CC22 /* CircleMicrophoneButton.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		936F86F01DD3782F0096FEC3 /* Morse speech converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936F87031DD3782F0096FEC3 /* Build configuration list for PBXNativeTarget "Morse speech converter" */;
+			buildPhases = (
+				6FE5AC07CD2BFAADA79D735E /* [CP] Check Pods Manifest.lock */,
+				936F86ED1DD3782F0096FEC3 /* Sources */,
+				936F86EE1DD3782F0096FEC3 /* Frameworks */,
+				936F86EF1DD3782F0096FEC3 /* Resources */,
+				F0EDE0783AE58FBA8156F222 /* [CP] Embed Pods Frameworks */,
+				E7F2A11D19520962758824FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Morse speech converter";
+			productName = "Morse speech converter";
+			productReference = 936F86F11DD3782F0096FEC3 /* Morse speech converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		936F86E91DD3782E0096FEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Andriiev.Mykola;
+				TargetAttributes = {
+					936F86F01DD3782F0096FEC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2MQ5R4FSP4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 936F86EC1DD3782E0096FEC3 /* Build configuration list for PBXProject "Morse speech converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 936F86E81DD3782E0096FEC3;
+			productRefGroup = 936F86F21DD3782F0096FEC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				936F86F01DD3782F0096FEC3 /* Morse speech converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		936F86EF1DD3782F0096FEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936F870F1DD378CB0096FEC3 /* LaunchScreen.storyboard in Resources */,
+				936F870E1DD378CB0096FEC3 /* Assets.xcassets in Resources */,
+				93B7FFE51DD379910079DD37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FE5AC07CD2BFAADA79D735E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F2A11D19520962758824FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Morse speech converter/Pods-Morse speech converter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0EDE0783AE58FBA8156F222 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Morse speech converter/Pods-Morse speech converter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936F86ED1DD3782F0096FEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936F870D1DD378CB0096FEC3 /* AppDelegate.swift in Sources */,
+				934344141DD5EE760063CC22 /* SpeechRecognizerContext.swift in Sources */,
+				936F86F71DD3782F0096FEC3 /* SpeachController.swift in Sources */,
+				934344121DD5CFEB0063CC22 /* CircleMicrophoneButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		936F87091DD378CB0096FEC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936F870A1DD378CB0096FEC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		936F87011DD3782F0096FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		936F87021DD3782F0096FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		936F87041DD3782F0096FEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1154716322E9B43D04519318 /* Pods-Morse speech converter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MQ5R4FSP4;
+				INFOPLIST_FILE = "Morse speech converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andriiev.Mykola.Morse-speech-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		936F87051DD3782F0096FEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9D13DD8E0FE8255A7E6693 /* Pods-Morse speech converter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2MQ5R4FSP4;
+				INFOPLIST_FILE = "Morse speech converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andriiev.Mykola.Morse-speech-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		936F86EC1DD3782E0096FEC3 /* Build configuration list for PBXProject "Morse speech converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936F87011DD3782F0096FEC3 /* Debug */,
+				936F87021DD3782F0096FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936F87031DD3782F0096FEC3 /* Build configuration list for PBXNativeTarget "Morse speech converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936F87041DD3782F0096FEC3 /* Debug */,
+				936F87051DD3782F0096FEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 936F86E91DD3782E0096FEC3 /* Project object */;
+}
