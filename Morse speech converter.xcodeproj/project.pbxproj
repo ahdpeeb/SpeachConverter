@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		934344121DD5CFEB0063CC22 /* CircleMicrophoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344111DD5CFEB0063CC22 /* CircleMicrophoneButton.swift */; };
 		934344141DD5EE760063CC22 /* SpeechRecognizerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934344131DD5EE760063CC22 /* SpeechRecognizerContext.swift */; };
+		934344161DD5FAD40063CC22 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934344151DD5FAD40063CC22 /* RxSwift.framework */; };
 		936F86F71DD3782F0096FEC3 /* SpeachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F86F61DD3782F0096FEC3 /* SpeachController.swift */; };
 		936F870D1DD378CB0096FEC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F87071DD378CB0096FEC3 /* AppDelegate.swift */; };
 		936F870E1DD378CB0096FEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936F87081DD378CB0096FEC3 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		1F9D13DD8E0FE8255A7E6693 /* Pods-Morse speech converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Morse speech converter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Morse speech converter/Pods-Morse speech converter.release.xcconfig"; sourceTree = "<group>"; };
 		934344111DD5CFEB0063CC22 /* CircleMicrophoneButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMicrophoneButton.swift; sourceTree = "<group>"; };
 		934344131DD5EE760063CC22 /* SpeechRecognizerContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerContext.swift; sourceTree = "<group>"; };
+		934344151DD5FAD40063CC22 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/Morse_speech_converter-gonwwlifmsramadpskmccvjwetyd/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
 		936F86F11DD3782F0096FEC3 /* Morse speech converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Morse speech converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		936F86F61DD3782F0096FEC3 /* SpeachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeachController.swift; path = ../SpeachController.swift; sourceTree = "<group>"; };
 		936F87001DD3782F0096FEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934344161DD5FAD40063CC22 /* RxSwift.framework in Frameworks */,
 				B28269ED75BD3F568E18F2E5 /* Pods_Morse_speech_converter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +59,7 @@
 		6F60EFA99FA880020BD83B3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				934344151DD5FAD40063CC22 /* RxSwift.framework */,
 				A3E583D58FA7F0D4D2104124 /* Pods_Morse_speech_converter.framework */,
 			);
 			name = Frameworks;
@@ -194,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E7F2A11D19520962758824FB /* [CP] Copy Pods Resources */ = {
